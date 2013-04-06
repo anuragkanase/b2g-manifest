@@ -7,6 +7,7 @@
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
   <remote name="cuteprince" fetch="git://github.com/cuteprince/"/>
+  <remote name="anuragkanase" fetch="git://github.com/anuragkanase/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <default revision="ics_chocolate" remote="caf" sync-j="1"/>
 
@@ -94,6 +95,6 @@
 
   <!-- PICO specific things -->
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="device/htc/pico" name="device_htc_pico" remote="cuteprince" revision="master"/>
-  <project path="vendor/htc/pico" name="ics-vendor-pico" remote="cuteprince" revision="master"/>
+  <project path="device/htc/buzz" name="device_htc_buzz" remote="anuragkanase" revision="master"/>
+  <project path="vendor/htc/buzz" name="ics-vendor-pico" remote="anuragkanase" revision="master"/>
 </manifest>
